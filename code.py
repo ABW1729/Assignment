@@ -51,7 +51,7 @@ def query_brokers(input_isin=None, input_symbol=None, input_token=None, input_ex
 def query_script_mapping(json_data):
     # Extract ISIN, symbol, token, and exchange from JSON data
     input_isin = json_data.get("ISIN")
-    input_symbol = json_data.get("symbol")
+    input_symbol = json_data.get("name")
     input_token = json_data.get("token")
     input_exchange = json_data.get("exchange")
 
