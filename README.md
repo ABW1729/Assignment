@@ -7,10 +7,9 @@ This tool takes JSON input containing ISIN, symbol, and token details for a scri
 - Python 3.x
 - CSV files for brokers (`kotak.csv`, `fyers.csv`, `icici.csv`, `angel.csv`, `zerodha.csv`) with the following columns:
   - `token`
-  - `instrumentName`
   - `ISIN`
   - `exchange`
-  - `segment`
+  - `name`
 
 ## Setup
 
@@ -37,7 +36,7 @@ python code.py
 ```json
 {
     "ISIN": "INE155A01022",
-    "symbol": "TATAMOTORS",
+    "name": "TATAMOTORS",
     "token": "3456",
     "exchange": "NSE"
 }
