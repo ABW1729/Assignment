@@ -1,6 +1,7 @@
 # Broker Script Mapping Tool
 
 This tool takes JSON input containing ISIN, symbol, and token details for a script and checks corresponding CSV files for five brokers (Kotak, Fyers, ICICI, Angel, and Zerodha). It attempts to map the script across these brokers by checking the ISIN, token, and exchange for each broker's data.
+The first block of code in Jupyter notebook is main code,other blocks include functions involved in preprocessing csv files
 
 ## Prerequisites
 
